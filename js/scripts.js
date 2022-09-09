@@ -1,7 +1,7 @@
 (document).ready(function(event) {
   ("form#survey").submit(function(event) {
 
-    const fruits = ("#fruits").val();
+    const fruits = ("#fruits").val(
     const cuisine = ("#cuisine").val();
     const pets = ("#pets").val();
     const gender = ("#gender").val();
